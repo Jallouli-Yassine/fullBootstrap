@@ -1,0 +1,81 @@
+@import "variables";
+
+@font-face {
+  font-family: gadugi;
+  src: url(../fonts/gadugi.ttf);
+}
+
+@font-face {
+  font-family: Trebuchet;
+  src: url(../fonts/trebuc.ttf);
+}
+
+body {
+  background-color: $backColor;
+}
+
+.ulStyle {
+  width: $width1;
+  height: $height1;
+  border-radius: $border-radius1;
+  background-color: $navLinkbackgroundcolor;
+}
+
+.ulStyle li a {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Gadugi";
+  text-align: center;
+}
+
+.title {
+  font-size: $font-size2;
+  color: $color2;
+  font-weight: $font-weight2;
+  font-family: $font-family;
+}
+
+.sousTitle {
+  height: $heightP;
+  font-size: $font-sizeP;
+  color: $colorP;
+  font-weight: $font-weightP;
+  font-family: $font-family
+}
+
+.customBtn {
+  width: $widthBtn;
+  height: $heightBtn;
+  border-radius: $border-radiusBtn;
+  background-color: $background-colorBtn;
+  font-size: $font-sizeBtn;
+  color: $colorBtn;
+  font-weight: $font-weightBtn;
+  font-family: $font-family;
+}
+
+.section2 {
+  background-color: #7e30e1;
+}
+
+.s2T {
+  font-size: $font-sizeS2T;
+  color: $colorS2T;
+  font-weight: $font-weightS2T;
+  font-family: $font-family;
+}
+
+.s2T2 {
+  font-size: $font-sizeS2T;
+  color: white;
+  font-weight: $font-weightS2T;
+  font-family: $font-family;
+}
+
+.s2P {
+  font-size: $font-sizePPP;
+  color: $colorPPP;
+  font-weight: $font-weightPPP;
+  font-family: $font-family;
+}
